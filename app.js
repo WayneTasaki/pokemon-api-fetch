@@ -32,26 +32,3 @@ function getPokemon(e) {
 
 // Add ability to press enter to search.
 // Is it better practice to forgo using innerHTML and instead give that section a display:none and add eventlistener to toggle it on or off?
-
-function sumMix(x){
-  let sum = 0;
-  function toNumbers(x) {
-  return x.map(Number);
-}
-  for (i = 0; i <= x.legnth - 1; i++) {
-    sum = +x[i] + sum
-  }
-  return sum;
-}
-
-
-x = [9, 3, '7', '3'];
-
-function sumMix(x){
-  let sum = 0;
-  let numArr = x.map(Number);
-  for (i = 0; i < numArr.legnth; i++) {
-   sum += numArr[i];
-  }
-  return sum;
-}
