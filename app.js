@@ -32,3 +32,4 @@ function getPokemon(e) {
 
 // Add ability to press enter to search.
 // Is it better practice to forgo using innerHTML and instead give that section a display:none and add eventlistener to toggle it on or off?
+
